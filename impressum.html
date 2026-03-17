@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum — Shift2Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --black:#000; --cyan:#0cc0df; --white:#fff; --muted:#888; }
+    html, body { background: var(--black); color: var(--white); font-family: 'Poppins', sans-serif; font-weight: 300; min-height: 100vh; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 4rem; height: 76px;
+      background: rgba(0,0,0,0.97);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .nav-logo-text {
+      font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 700;
+      letter-spacing: 0.15em; color: var(--white); text-decoration: none;
+    }
+    .nav-back {
+      font-family: 'Poppins', sans-serif; font-size: 0.52rem; font-weight: 600;
+      letter-spacing: 0.22em; text-transform: uppercase;
+      color: rgba(255,255,255,0.5); text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.15); padding: 0.5rem 1rem;
+      transition: border-color 0.25s, color 0.25s;
+    }
+    .nav-back:hover { border-color: var(--cyan); color: var(--cyan); }
+
+    main {
+      max-width: 720px; margin: 0 auto;
+      padding: 140px 2rem 6rem;
+    }
+    .page-label {
+      font-size: 0.58rem; font-weight: 600; letter-spacing: 0.3em;
+      text-transform: uppercase; color: var(--cyan);
+      display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.2rem;
+    }
+    .page-label::before {
+      content: ''; display: block; width: 22px; height: 2px; background: var(--cyan);
+    }
+    h1 {
+      font-family: 'Poppins', sans-serif; font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 700; letter-spacing: -0.01em; line-height: 1.1;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid rgba(255,255,255,0.07); padding-bottom: 2rem;
+    }
+    h2 {
+      font-size: 0.65rem; font-weight: 600; letter-spacing: 0.22em;
+      text-transform: uppercase; color: rgba(255,255,255,0.4);
+      margin-bottom: 0.6rem; margin-top: 2.5rem;
+    }
+    p { font-size: 0.9rem; line-height: 1.9; color: rgba(255,255,255,0.65); margin-bottom: 0.4rem; }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center; padding: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.5rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(255,255,255,0.2);
+    }
+
+    @media (max-width: 768px) {
+      nav { padding: 0 1.4rem; }
+      main { padding: 110px 1.4rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo-text">SHIFT2PRO</a>
+  <a href="/" class="nav-back">← Zurück</a>
+</nav>
+
+<main>
+  <p class="page-label">Legal</p>
+  <h1>Impressum</h1>
+
+  <h2>Angaben gemäß § 5 TMG</h2>
+  <p>René Wild</p>
+  <p>Mitterweg 41</p>
+  <p>83024 Rosenheim</p>
+
+  <h2>Kontakt</h2>
+  <p>E-Mail: <a href="mailto:rene.wild@me.com">rene.wild@me.com</a></p>
+
+  <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+  <p>René Wild</p>
+  <p>Mitterweg 41</p>
+  <p>83024 Rosenheim</p>
+
+  <h2>Haftungsausschluss</h2>
+  <p>Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.</p>
+
+  <h2>Urheberrecht</h2>
+  <p>Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
+</main>
+
+<footer>© 2026 Shift2Pro · René Wild · <a href="/datenschutz.html">Datenschutz</a></footer>
+
+</body>
+</html>
